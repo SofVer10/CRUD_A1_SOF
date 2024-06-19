@@ -15,6 +15,9 @@
         android:theme="@style/Theme.CRUD_A1_SOF"
         tools:targetApi="31">
         <activity
+            android:name=".activity_registro"
+            android:exported="false" />
+        <activity
             android:name=".pantalla_bienvenida"
             android:exported="false" />
         <activity
