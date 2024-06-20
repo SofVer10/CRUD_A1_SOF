@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             delay(3000)
 
             //Cambio de pantalla
-            val pantallaSiguiente = Intent(this@MainActivity, pantalla_bienvenida::class.java)
+            val pantallaSiguiente = Intent(this@MainActivity, activity_login::class.java)
             startActivity(pantallaSiguiente)
             //Final del activity
             finish()

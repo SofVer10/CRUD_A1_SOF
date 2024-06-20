@@ -30,10 +30,10 @@ class pantalla_bienvenida : AppCompatActivity() {
 
             GlobalScope.launch (Dispatchers.Main){
                 //Tiempo de cambio 3 segundos
-                delay(3000)
+                delay(2000)
 
                 //Cambio de pantalla
-                val pantallaSiguiente = Intent(this@pantalla_bienvenida, activity_registro::class.java)
+                val pantallaSiguiente = Intent(this@pantalla_bienvenida, activity_login::class.java)
                 startActivity(pantallaSiguiente)
                 //Final del activity
                 finish()
